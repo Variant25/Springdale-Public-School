@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
 import logo from '../assets/logo.png';
-import './css/NavBar.css'; // Import the CSS file for NavBar styling
+import './css/NavBar.css'; 
 
 function NavBar() {
   return (

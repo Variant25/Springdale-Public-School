@@ -108,7 +108,7 @@ body::-webkit-scrollbar {
  
 }
 
-/***************     Sale Css *************/
+
 
 .ad-container {
   background-color: #080612;
@@ -116,7 +116,7 @@ body::-webkit-scrollbar {
   padding-top: 2rem;
   display: flex;
   width: 100%;
-  height: 70vh; /* Adjust height as needed */
+  height: 70vh; 
 }
 
 .text-section {
@@ -167,7 +167,6 @@ body::-webkit-scrollbar {
 
 
 
-/***************     3rdcomponent Css ************/
 
 
 .container-sale {
@@ -222,10 +221,10 @@ body::-webkit-scrollbar {
   margin-bottom: 5px;
 }
 
-/* App.css */
 
-/*** *******  Pricing card ***********/
-/* PricingPlans.css */
+
+
+
 .pricing-container {
   height: auto;
   min-height: 100vh;
@@ -245,14 +244,14 @@ body::-webkit-scrollbar {
 .pricing-plans {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+  flex-wrap: wrap; 
   margin-bottom: 30px;
 }
 
 .pricing-plan {
   background-color: #fff;
   padding: 20px;
-  margin: 10px; /* Adjusted for uniformity */
+  margin: 10px; 
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   min-height: 450px;
@@ -261,13 +260,13 @@ body::-webkit-scrollbar {
 }
 
 .pricing-plan h3, .price, .period {
-  color: #fff; /* Ensuring readability */
+  color: #fff; 
 }
 
 .features {
   list-style-type: none;
   padding: 0;
-  margin-bottom: 30px; /* Reduced bottom margin for better space management */
+  margin-bottom: 30px;
 }
 
 .get-now-btn {
@@ -283,7 +282,7 @@ body::-webkit-scrollbar {
 
 .highlighted {
   background-color: #fff;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Stronger shadow for emphasis */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
 }
 
 .highlighted .get-now-btn {
@@ -293,7 +292,7 @@ body::-webkit-scrollbar {
 
 @media (max-width: 1024px) {
   .pricing-container h2 {
-    font-size: 24px; /* Smaller font for smaller screens */
+    font-size: 24px; 
   }
 
   .pricing-plans {
@@ -302,13 +301,13 @@ body::-webkit-scrollbar {
   }
 
   .pricing-plan {
-    width: 90%; /* Full width for mobile visibility */
+    width: 90%; 
   }
 }
 
 @media (max-width: 600px) {
   .pricing-plan {
-    min-height: auto; /* More flexible height */
+    min-height: auto; 
     padding: 15px;
   }
 
@@ -331,7 +330,7 @@ body::-webkit-scrollbar {
 
 @media (max-width: 800px) {
   .content-container > * {
-    width: 100%; /* Full width for single column layout */
+    width: 100%;
   }
 
   .left-content, .right-content {
@@ -347,12 +346,10 @@ body::-webkit-scrollbar {
 }
 
 
-/**********  features with orange icon   ***********/
 
 
 
 
-/******** contact us     ***********/
 
 
 
@@ -442,10 +439,6 @@ body::-webkit-scrollbar {
 
 
 
-
-
-
-/* Add responsive CSS for contact container */
 
 @media screen and (max-width: 768px) {
   .contact-container {
@@ -473,9 +466,9 @@ body::-webkit-scrollbar {
 
 
 
-/* Add this media query for smaller screens */
+
 @media (max-width: 768px) {
-  /* Adjustments for smaller screens */
+
   #page1 h1 {
     font-size: 12vw;
   }
@@ -534,7 +527,7 @@ body::-webkit-scrollbar {
 }
 
 @media (max-width: 480px) {
-  /* Adjustments for very small screens */
+
   #page1 h1 {
     font-size: 16vw;
   }
@@ -568,7 +561,7 @@ body {
   position: relative;
 }
 
-/* Adjustments for smaller screens */
+
 @media (max-width: 768px) {
   .ad-container,
   .container-sale,
@@ -602,7 +595,7 @@ body {
  
 }
 
-/* Adjustments for very small screens */
+
 @media (max-width: 480px) {
   .ad-container,
   .container-sale,
@@ -650,7 +643,7 @@ body {
 
 
 
-/* Add responsive CSS */
+
 
 @media screen and (max-width: 768px) {
   .ad-container {
@@ -715,82 +708,3 @@ body {
 
 
 
-/* blog.css */
-
-/* Blog container styles */
-.blog-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 10px auto;
-  padding: 20px;
-  padding-bottom: 0;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-  background-color: #080612;
-  max-width: 900px;
-}
-
-/* Blog title styles */
-.blog-title {
-  padding-top: 0;
-  font-size: 2rem;
-  text-align: center;
-  margin: 20px 0;
-  color: #fff; /* Bright yellow for the title */
-}
-
-/* Blog body styles */
-.blog-body {
-  font-size: 1rem;
-  text-align: justify;
-  margin: 20px 0;
-  padding: 0 20px;
-  color: #ccc; /* Light gray for the text */
-  line-height: 1.6;
-  max-width: 800px;
-}
-
-/* Blog image styles */
-.blog-image {
-  width: 100%;
-  height: auto; /* Ensures the image maintains its aspect ratio */
-  border-radius: 10px;
-  max-width: 800px;
-  margin-bottom: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow to the image */
-}
-
-/* Responsive styles */
-@media (min-width: 768px) {
-  .blog-title {
-    font-size: 2.5rem;
-    margin: 30px 0;
-  }
-
-  .blog-body {
-    font-size: 1.2rem;
-    padding: 0 40px;
-  }
-}
-
-/* Small screens */
-@media (max-width: 767px) {
-  .blog-container {
-    margin: 10px;
-    padding: 15px;
-  }
-
-  .blog-title {
-    font-size: 1.8rem;
-  }
-
-  .blog-body {
-    font-size: 1rem;
-    padding: 0 15px;
-  }
-
-  .blog-image {
-    margin-bottom: 15px;
-  }
-}

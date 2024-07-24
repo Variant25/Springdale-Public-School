@@ -85,7 +85,7 @@ const AboutPage = () => {
 
         <br />
 
-        {/* Directors Section */}
+     
         <div className="directors-section">
        
           {directors.map((director, index) => (

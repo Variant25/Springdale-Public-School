@@ -1,4 +1,4 @@
-// App.js
+
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 const IMAGE_URL_PREFIX = 'https://kipm-website-xgjk.onrender.com';

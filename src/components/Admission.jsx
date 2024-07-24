@@ -4,8 +4,8 @@ import Footer from './Footer';
 import './css/Admission.css';
 
 const Admission = () => {
-  // Path to the admission form
-  const formUrl = '/assets/admission-form.pdf'; // Ensure this path matches your actual file path
+  
+  const formUrl = '/assets/admission-form.pdf'; 
 
   return (
     <div>
