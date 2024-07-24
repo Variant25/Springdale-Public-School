@@ -1,0 +1,36 @@
+.profiles-page{
+  padding: 20px;
+  background-color: #080612;
+}
+
+
+
+.profiles-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    padding: 16px;
+    background-color: #080612;
+  }
+  
+  .profile-card {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .profile-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .profile-pic {
+    width: 50%;
+    border-radius: 100%;
+    margin-bottom: 16px;
+  }
+  
