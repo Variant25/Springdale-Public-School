@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import Video from '../assets/welcome-video.mp4';
-import Sale from './Sale';
+
 import NavBar from './NavBar';
 import Footer from './Footer';
 import { Link } from 'react-router-dom';
