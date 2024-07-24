@@ -1,5 +1,5 @@
 import React from 'react';
-import './Profiles.css';
+import './css/Profiles.css';
 import NavBar from './NavBar';
 import Footer from './Footer';
 const Profiles = () => {

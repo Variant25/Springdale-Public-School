@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBar from './NavBar';
 import Footer from './Footer';
-import './Admission.css';
+import './css/Admission.css';
 
 const Admission = () => {
   // Path to the admission form

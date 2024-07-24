@@ -1,5 +1,5 @@
 import React from 'react';
-import './Gallery.css';
+import './css/Gallery.css';
 import NavBar from './NavBar';
 import Footer from './Footer';
 const Gallery = () => {
