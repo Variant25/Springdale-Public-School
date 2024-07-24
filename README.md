@@ -2,7 +2,11 @@
 
 Clone the repository 
 Open terminal:
-  run - npm install
+
+
+  run -
+  
+        npm install
         npm run dev
 
         
